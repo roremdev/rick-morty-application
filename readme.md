@@ -1,22 +1,3 @@
-<style>
-.inline img, .inline h3{
-   display:inline-block;
-   vertical-align: middle;
-}
-.block-quote {
-    padding: 16px 24px;
-    background-color: #f3f5f7;
-    border-left: 8px solid #747bff;
-    border-radius: 2px;
-}
-.block-quote .title {
-    font-weight: 600;
-}
-.block-quote a {
-    color: #747bff
-}
-</style>
-
 <p align="center">
     <a href="https://github.com/roremdev/rick-morty/javascript">
         <img src="https://img.shields.io/badge/JavaScript-1.0.0-green?style=for-the-badge&logo=JavaScript" alt="JavaScript" />
@@ -46,10 +27,8 @@ The use for this project will depend on the use case:
 - For create pipelining for hooks made in git/github, travis, cypress, etc.
 - Also, for improve the inside code or testing new features either in the frontend or fetching data from some kind of API (REST API, GraphQL, etc).
 
-<div class="inline">
-    <img src="images/vite.svg" alt="vite" width="24"/>
-    <h3>Built with Vite</h3>
-</div>
+### Built with Vite ⚡️
+<img src="https://img.shields.io/badge/Vite-2.4.4-green?style=for-the-badge&logo=Vite" alt="vite" />
 
 The initial construction of this project was made with [Vite](https://vitejs.dev/).
 
@@ -62,10 +41,7 @@ Other reasons for using Vite are:
 * [Bundle for productions](https://vitejs.dev/guide/why.html#why-bundle-for-production)
 
 ## Getting Started
-<div class="block-quote">
-    <p class="title">Compatibility Note</p>
-    <p>Vite requires <a href="https://nodejs.org/en/">Node.js</a> version >=12.0.0.</p>
-</div>
+> Note. Vite requires <a href="https://nodejs.org/en/">Node.js</a> version >=12.0.0.
 
 ### Branches
 For check each version code, you can change the current branch:
